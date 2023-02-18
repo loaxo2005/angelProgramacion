@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td { 
+            border: 1px solid black
+         }
+    </style>
+    <title>Mi primera web</title>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+        <tr>
+            <th>item</th>
+            <th>price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>pan</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>cafe</td>
+            <td>0.5$</td>
+        </tr>
+        <tr>
+            <td>cafe descafeinado sin cafeina</td>
+            <td>0.5$</td>
+        </tr>
+    </tbody>
+    <tfoot>
+       <td></td> 
+       <td>Total-301$</td> 
+    </tfoot>
+    </table>
+    <!--ul es lista no ordenada, es la lista que viene con viñetas-->
+    <ul>
+        <!--(li, quiere decir list item, cada elemento de la lista va envuelto en uno de estos)-->
+       <li>
+        elemento1
+       </li> 
+       <li>
+        elemento2
+       </li> 
+       <li>
+        elemento3
+       </li> 
+       <li>
+        elemento4
+       </li> 
+    </ul>
+    <!-- ol lista ordemada, esta es la lista que viene enumerada-->
+
+    <ol>
+        <li value="50">elemento-a</li>
+            <ol value="1">
+                <li style="list-style-type:lower-roman ;">sub elemento 1</li>
+                <li style="list-style-type:lower-roman ;">sub elemento 2</li>
+                <li style="list-style-type:lower-roman ;">sub elemento 3</li>
+            </ol>
+        <li>elemento-b</li>
+        <li>elemento-c</li>
+        <li>elemento-d</li>
+    </ol>
+    <!--la etiqueta form, funciona para iniciar e indicar un formulario
+    de esta forma el navegador organiza la funcion y le da los atributos que se le indiquen-->
+    <form action="/formulario" method="POST">
+        <!--la etiqueta "label" funciona para dar nombre a las casillas "input" del formulario-->
+        <label for="loggin">loggin</label>
+        <!--la eiqueta"input"funcina para crear diferentes tipos de casillas, como: casillas de texto(type="text"),
+        casillas de radio(type="rado"), casillas de password (type="radio"), casillas de seleccion, y casillas de archivos(type="file") -->
+        <input value="loggin" id="loggin" type="text" name="loggin" placeholder="ingresa tu loggin..."/>
+         <!--la etiqueta "br" funciona para bajar un espacio en las lineas-->
+        <br>
+        <label for="Password">Password</label>
+        <input value="Password" type="password" id="Password" name="Password" placeholder="coloca tu clave aqui..."/>
+        
+        <br>
+        <label for="comentario">Deja aqui tu comentario!!!</label>
+        <!--los text area, son cuadros de texto para colocar comentarios entre otro tipo de informacion
+        que tambien va a las bases de datos-->
+        <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="comentario"/>cometario para texto
+        </textarea>
+        <br>
+        <!--las etiquetas button tienen 3 funciones o atributos
+        se pueden usar como botones, para limpiar campos de escritura y para enviar, son personalizables-->
+        <button type="button"></button>
+        <button type="reset"></button>
+        <button type="submit"></button>
+</form>
+    
+    <h1>Mi primer heading</h1>
+    <p>holakease</p>
+    <p>noagonah´</p>
+    <h2>holavale</h2>
+    <p>Este es el texto largo al qe el se refiere,
+        <!--las etiquetas span, sirven para resaltar texto con diferentes caracteristicas-->
+        <span style="color:rgb(192, 35, 35);">este <br> texto es el que voy a 
+            <hr>
+        envolver en la otra etiqueta!</span>
+    </p>
+    
+    <!--las etiquetas "a" sirven para agregar vinculos especificos -->
+        <a target="_blank" href=https://www.google.com/>Ir a google</a>
+        <!--las etiquetas "img" sirven para colocar imagenes dentro de la pagina-->
+        <img src="img/foto.jpg" height="60px"/>
+        
+</body>
+
+</html>
