@@ -1,0 +1,150 @@
+#Titulo{color: green;}
+p.texto{ color:aquamarine}
+p.espacial{ color:blue}
+div p {
+color: aquamarine
+
+}
+div h2, div h3{color:brown }
+*{
+    font-size: 24px; 
+ /*    color: black; */
+}
+/*
+.color{
+  color:  #ff0000;
+}
+.color{
+    color:rgb(0, 0, 0)
+}
+*/
+.color{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+    border-width: 2em;
+
+}
+#background{
+    background-color: rgba(150,150,150,0.5);
+    /* opacity: 0.3; */
+    height: 200px;
+    background: #ff0000 url(sauces.jpg) repeat-y center bottom/ 250px 250px ;
+}
+.margen{
+    background-color: red;
+    opacity: 0.3;
+    /*primer numero, margen sup, dehc, aba, iz*/
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: auto;
+    outline: 1px solid red;
+}
+*{marigin: 15px 15px 15px 15px}
+.text {
+    font-family: "roboto"
+    text-align: justify;
+text-decoration: overline;
+text-shadow: 3px 5px 5px brown;}
+a:link{
+    color:blueviolet
+}
+a:visited{
+    color:blue;
+}
+a:hover{color: yellow
+
+}
+a:active{
+    color:#ff0000
+
+}
+ul {
+    background-color: cyan;
+    list-style-type: square;
+    padding-left: 60px;
+    list-style-position: inside ;
+}
+table {
+    width: 100%;
+}
+th, td{
+    border: solid 1px #eee;
+    padding: 6px;
+}
+
+th {
+    background-color: gray;
+    color: wheat;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+/* display: none; */
+/* visibility: hidden ; */
+max-width: 300px;
+background-color: #ff0000;
+}
+
+.inline{
+    display: inline;
+}
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+.left{
+    float: left;
+    width: 100px;
+}
+
+.rigth {
+    float: right;
+}
+
+.container{
+    height: 200px;
+}
+
+.column{
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+.section {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+
+}
+/*     border: 5px red outset; */
+/*propiedades de bordes
+dotted
+dashed
+solid
+groove
+ridge
+inset
+outset
+none
+hidden*/
